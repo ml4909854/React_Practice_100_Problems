@@ -1,0 +1,14 @@
+/* Normal state */
+.normal {
+    color: black;
+    font-size: 16px;
+  }
+  
+  /* Active/highlighted state */
+  .highlight {
+    color: white;
+    background-color: blue;
+    font-size: 18px;
+    padding: 5px;
+  }
+  
