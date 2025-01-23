@@ -46,16 +46,16 @@ import React from 'react'
 import Deboucing from './DebouncingInput/Deboucing'
 import Throttling from './DebouncingInput/Throttling'
 import InfiniteScroll from './ScrolloTop/Scroll'
+import PaginationWithAPI from './Pagination/Pagination'
 
 const App = () => {
 
   
   return (
     <div>
+      
 
-      {/* <Deboucing/> */}
-      {/* <Throttling/> */}
-      <InfiniteScroll/>
+     <PaginationWithAPI/>
     </div>
   )
 }
